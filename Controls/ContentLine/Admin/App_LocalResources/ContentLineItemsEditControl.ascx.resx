@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bCancel.Text" xml:space="preserve">
+    <value>Отмена</value>
+  </data>
+  <data name="bClearFoto.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="bDelete.Text" xml:space="preserve">
+    <value>Удалить</value>
+  </data>
+  <data name="bSave.Text" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="bSelectFoto.Text" xml:space="preserve">
+    <value>Выбрать</value>
+  </data>
+  <data name="ErrorExpireDateMorePublishDateMessage" xml:space="preserve">
+    <value>Ошибка! дата истечения срока действия не может меньше даты публикации</value>
+  </data>
+  <data name="ErrorMsg_FatalErrorToUser.Text" xml:space="preserve">
+    <value>Ошибка! Извините, произошла системная ошибка. Сообщение об ошибке отправлено разработчикам и будет рассмотрено в ближайшее время.</value>
+  </data>
+  <data name="ErrorNotEnteredCurrentControlIDMessage" xml:space="preserve">
+    <value>Ошибка! Не заданоCurrentControlID</value>
+  </data>
+  <data name="ErrorNotEnteredTitleMessage" xml:space="preserve">
+    <value>Ошибка! Не указан заголовок</value>
+  </data>
+  <data name="ErrorNotEnteredURLMessage" xml:space="preserve">
+    <value>Ошибка! Не указана страница детализации</value>
+  </data>
+  <data name="ErrorWrongSequenceNumberMessage" xml:space="preserve">
+    <value>Ошибка! Неверное значение последовательного номера</value>
+  </data>
+  <data name="imgContentFoto.AlternateText" xml:space="preserve">
+    <value>нет изображения</value>
+  </data>
+  <data name="lDisplayDates.Text" xml:space="preserve">
+    <value>Дата:</value>
+  </data>
+  <data name="lFrom.Text" xml:space="preserve">
+    <value>с</value>
+  </data>
+  <data name="lHeader.Text" xml:space="preserve">
+    <value>Редактирование элемента ленты</value>
+  </data>
+  <data name="lSequenceNumber.Text" xml:space="preserve">
+    <value>Порядковый номер:</value>
+  </data>
+  <data name="lTitle.Text" xml:space="preserve">
+    <value>Заголовок:</value>
+  </data>
+  <data name="lTo.Text" xml:space="preserve">
+    <value>по</value>
+  </data>
+  <data name="lURL.Text" xml:space="preserve">
+    <value>Страница перехода</value>
+  </data>
+  <data name="pnDescription.GroupingText" xml:space="preserve">
+    <value>Краткое описание</value>
+  </data>
+  <data name="pnFoto.GroupingText" xml:space="preserve">
+    <value>Изображение:</value>
+  </data>
+  <data name="pnNote.GroupingText" xml:space="preserve">
+    <value>Комментарий:</value>
+  </data>
+  <data name="chURL.Text" xml:space="preserve">
+    <value> Страница сайта</value>
+  </data>
+  <data name="InfoMsg_Deleted.Text" xml:space="preserve">
+    <value>Удаление выполнено</value>
+  </data>
+  <data name="InfoMsg_Updated.Text" xml:space="preserve">
+    <value>Данные обновлены</value>
+  </data>
+  <data name="bCancel.Tooltip" xml:space="preserve">
+    <value>Отменить изменение и закрыть страницу редактирования</value>
+  </data>
+  <data name="bDelete.Tooltip" xml:space="preserve">
+    <value>Удалить запись и закрыть эту страницу редактирования</value>
+  </data>
+  <data name="bSave.Tooltip" xml:space="preserve">
+    <value>Выполнить сохранение и закрыть страницу редактирования</value>
+  </data>
+  <data name="confirmDeleteMessage" xml:space="preserve">
+    <value>Вы действительно желаете удалить запись?</value>
+  </data>
+  <data name="rfvPublishDate.ErrorMessage" xml:space="preserve">
+    <value>Не указана дата публикации!</value>
+  </data>
+  <data name="rfvTitle.ErrorMessage" xml:space="preserve">
+    <value>Заголовок обязательное поле!</value>
+  </data>
+  <data name="rfvURL.ErrorMessage" xml:space="preserve">
+    <value>Вы не указали страницу детализации!</value>
+  </data>
+  <data name="revPublishDate.ErrorMessage" xml:space="preserve">
+    <value>Формат даты должен быть "dd/MM/yyyy HH:mm"!</value>
+  </data>
+  <data name="revExpireDate.ErrorMessage" xml:space="preserve">
+    <value>Формат даты должен быть "dd/MM/yyyy HH:mm"!</value>
+  </data>
+  <data name="newpage" xml:space="preserve">
+    <value>Cоздать новую страницу</value>
+  </data>
+  <data name="revDllURL.ErrorMessage" xml:space="preserve">
+    <value>При опции &lt;Cоздать новую страницу&gt; возможно только "Сохранить и Открыть страницу на редактирование"</value>
+  </data>
+  <data name="rvDllURL.ErrorMessage" xml:space="preserve">
+    <value>Только &lt;Новая страница&gt; может быть указана при использовании   "Сохранить и Открыть страницу на редактирование"</value>
+  </data>
+  <data name="bSaveAndStartEditContent.Text" xml:space="preserve">
+    <value>Продолжить &gt;&gt;</value>
+  </data>
+  <data name="bSaveAndStartEditContent.Tooltip" xml:space="preserve">
+    <value>Сохранить и Открыть страницу на редактирование</value>
+  </data>
+  <data name="ErrorMsg_UQ_PageLanguages_UrlPageName_LanguageID.Text" xml:space="preserve">
+    <value>Ошибка! Уже существует страница с указанным именем для выбранного языка</value>
+  </data>
+  <data name="pnAdditionalFields.GroupingText" xml:space="preserve">
+    <value>Дополнительные поля:</value>
+  </data>
+  <data name="lAdditionalField1.Text" xml:space="preserve">
+    <value>Дополнительное поле 1:</value>
+  </data>
+  <data name="lRecommendedSizeImageFormat.Text" xml:space="preserve">
+    <value>Размер выбранного изображения не должен превышать {0} пикселей!</value>
+  </data>
+  <data name="DesctiptionControlMaxLengthMessage" xml:space="preserve">
+    <value>Вы  вели максимальное количество символов.</value>
+  </data>
+  <data name="Maximum.Label" xml:space="preserve">
+    <value>Максимум - {0} символов</value>
+  </data>
+  <data name="TitleCheckMaxLengthTextarea.ErrorText" xml:space="preserve">
+    <value>Вы достигли максимальной длины этого поля. Максимальная длина для этого поля 500 символов.</value>
+  </data>
+  <data name="DuplicateToControls.Text" xml:space="preserve">
+    <value>Дублировать запись в: </value>
+  </data>
+  <data name="lSortDescription.Text" xml:space="preserve">
+    <value>Сортировка элементов списка по убыванию порядкового номера, затем по убыванию даты публикации</value>
+  </data>
+  <data name="ItemNeedTranslate" xml:space="preserve">
+    <value />
+  </data>
+  <data name="pnItemLanguages.GroupingText" xml:space="preserve">
+    <value>Создать копию для дополнительных языков:</value>
+  </data>
+  <data name="UrlHasResolvedWord" xml:space="preserve">
+    <value>Url адресс "{0}" зарезервирован.</value>
+  </data>
+  <data name="into_divDetailPage.Text" xml:space="preserve">
+    <value>При создании новой публикации используйте настройки заданные по-умолчанию и нажмите кнопку «продолжить»</value>
+  </data>
+</root>

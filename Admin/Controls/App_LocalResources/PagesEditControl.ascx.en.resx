@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ErrorWrongSequenceNumberFormat" xml:space="preserve">
+    <value>SequenceNumber must be integer!</value>
+  </data>
+  <data name="lPageEditControlEditHeader" xml:space="preserve">
+    <value>Edit page</value>
+  </data>
+  <data name="lPageEditControlNewHeader" xml:space="preserve">
+    <value>Add page</value>
+  </data>
+  <data name="NoteNotMore200Msg" xml:space="preserve">
+    <value>Note text must be &lt;= 200 symbols!</value>
+  </data>
+  <data name="NotEnterPageCode" xml:space="preserve">
+    <value>Not enter page code!</value>
+  </data>
+  <data name="NotEnterPageFileName" xml:space="preserve">
+    <value>Not enter page file name!</value>
+  </data>
+  <data name="bCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="bCancel.Tooltip" xml:space="preserve">
+    <value>To cancel changes</value>
+  </data>
+  <data name="bDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="bDelete.Tooltip" xml:space="preserve">
+    <value>To delete this item</value>
+  </data>
+  <data name="bSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="bSave.Tooltip" xml:space="preserve">
+    <value>To save changes </value>
+  </data>
+  <data name="cbStartPage.Text" xml:space="preserve">
+    <value>Main</value>
+  </data>
+  <data name="lNote.Text" xml:space="preserve">
+    <value>Note:</value>
+  </data>
+  <data name="lPageCode.Text" xml:space="preserve">
+    <value>Page code:</value>
+  </data>
+  <data name="lPageEditControlHeader.Text" xml:space="preserve">
+    <value>Edit/Add page</value>
+  </data>
+  <data name="lPageFileName.Text" xml:space="preserve">
+    <value>Template name:</value>
+  </data>
+  <data name="lParent.Text" xml:space="preserve">
+    <value>Parent page:</value>
+  </data>
+  <data name="lSequenceNumber.Text" xml:space="preserve">
+    <value>Sequence number:</value>
+  </data>
+  <data name="confirmDeleteMessage" xml:space="preserve">
+    <value>Are you sure you want to delete item ?</value>
+  </data>
+  <data name="bPageFlNameCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="cbStartPageStart" xml:space="preserve">
+    <value>Start page (for change set flag on another page) </value>
+  </data>
+  <data name="bClearParent.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="InfoMsg_Updated.Text" xml:space="preserve">
+    <value>Changed saved</value>
+  </data>
+  <data name="ErrorMsg_FatalErrorToUser.Text" xml:space="preserve">
+    <value>Error! Sorry, there was a system error. An error message was sent to developers and will be fixed in the near future.</value>
+  </data>
+  <data name="rfvPageCode.ErrorMessage" xml:space="preserve">
+    <value>Page code is required fileld</value>
+  </data>
+  <data name="rfvPageFileName.ErrorMessage" xml:space="preserve">
+    <value>Page file name is required field</value>
+  </data>
+  <data name="revSequenceNumber.ErrorMessage" xml:space="preserve">
+    <value>SequenceNumber is required and must be integer</value>
+  </data>
+  <data name="lMenuForDisplay.Text" xml:space="preserve">
+    <value>Display in menu:</value>
+  </data>
+  <data name="rfvMenuForDisplay.ErrorMessage" xml:space="preserve">
+    <value>Menu for display page is required field</value>
+  </data>
+  <data name="ErrorMsg_NotDeleted.Text" xml:space="preserve">
+    <value>Unable to perform the removal, before deleting the page, remove all the languages ​​for the page</value>
+  </data>
+  <data name="InfoMsg_Deleted.Text" xml:space="preserve">
+    <value>Page was deleted</value>
+  </data>
+  <data name="ErrorMsg_UQ_PageLanguages_UrlPageName_LanguageID.Text" xml:space="preserve">
+    <value>Error! There is already a page with the specified name for the language</value>
+  </data>
+  <data name="ErrorMsg_UQ_Pages_PageCode.Text" xml:space="preserve">
+    <value>Page with the page's code already exists</value>
+  </data>
+  <data name="ddlParentPageCode.SelectedIndex" xml:space="preserve">
+    <value>&lt;No ancestor&gt;</value>
+  </data>
+  <data name="lAutoFillingPageName.Text" xml:space="preserve">
+    <value>Page name:</value>
+  </data>
+  <data name="bAutoFilling.Text" xml:space="preserve">
+    <value>Auto filling</value>
+  </data>
+  <data name="bAutoFilling.ToolTip" xml:space="preserve">
+    <value>To automatically populate the fields page, enter text in the "Page Name" and press the button</value>
+  </data>
+  <data name="rfvAutoFillingPageName.ErrorMessage" xml:space="preserve">
+    <value>Page name is required field</value>
+  </data>
+  <data name="PageWithTemplateExist" xml:space="preserve">
+    <value>Page with this template is exist. You can't create more than one page with this template</value>
+  </data>
+  <data name="ErrorMsg_UQ_PageLanguages_UrlPageName_LanguageID.Text1" xml:space="preserve">
+    <value>Error! There is already a page with the specified name for the language</value>
+  </data>
+  <data name="URLErrorMsg_FatalErrorToUser.Text" xml:space="preserve">
+    <value>This url name already exist. Change url name and save item again!</value>
+  </data>
+  <data name="UrlHasResolvedWord" xml:space="preserve">
+    <value>Url adress "{0}" is reserved.</value>
+  </data>
+</root>

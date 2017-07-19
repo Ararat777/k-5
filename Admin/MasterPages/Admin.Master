@@ -1,0 +1,140 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="i.LightSite.SiteAdministration.Admin.MasterPages.Admin" %>
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxControl" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="~/Admin/Styles/Style.css" rel="Stylesheet" type="text/css" />
+    <link type="text/css" href="~/Admin/Styles/smoothness/jquery-ui-1.8.19.custom.min.css"
+        rel="stylesheet" />
+    <title></title>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <script src='<%= ResolveClientUrl("~/Admin/Scripts/jquery-1.11.3.min.js") %>' type="text/javascript"></script>
+    <script src='<%= ResolveClientUrl("~/Admin/Scripts/jquery-ui.min.js") %>' type="text/javascript"></script>
+    <asp:PlaceHolder ID="phHeader" runat="server"></asp:PlaceHolder>
+    <div id="AdminSide">
+        <ajaxControl:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+        </ajaxControl:ToolkitScriptManager>
+        <div id="dHeader">
+            <div id="divLogo">
+                <asp:Label ID="lHeaderText" runat="server" Text="# iLightSiteStore #" meta:resourcekey="lHeaderText"></asp:Label>
+            </div>
+            <div id="backToSite">
+                <asp:HyperLink ID="hlBackToSite" runat="server" Text="#Back to site#" meta:resourcekey="hlBackToSite"></asp:HyperLink>
+            </div>
+            <div class="clear">
+            </div>
+            <div id="mainMenu">
+                <ul class="root">
+                    <li>
+                        <asp:HyperLink ID="hlPages" runat="server" Text="#Pages#" meta:resourcekey="hlPages"
+                            NavigateUrl="~/Admin/Pages.aspx"></asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="hlUsers" runat="server" Text="#Users#" meta:resourcekey="hlUsers"
+                            NavigateUrl="~/Admin/Users.aspx"></asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="hlCategories" runat="server" Text="#Categories#" meta:resourcekey="hlCategories"
+                            NavigateUrl="~/Controls/Store/Admin/Categories.aspx"></asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="hlManufacturers" runat="server" Text="#Manufacturers#" meta:resourcekey="hlManufacturers"
+                            NavigateUrl="~/Controls/Store/Admin/Manufacturers.aspx"></asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="hlProductParameters" runat="server" Text="#ProductParameters#"
+                            meta:resourcekey="hlProductParameters" NavigateUrl="~/Controls/Store/Admin/ProductParameters.aspx"></asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="hlProducts" runat="server" Text="#Products#"
+                            meta:resourcekey="hlProducts" NavigateUrl="~/Controls/Store/Admin/Products.aspx"></asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="hlOrders" runat="server" Text="#Orders#" meta:resourcekey="hlOrders"
+                            NavigateUrl="~/Controls/Store/Admin/Orders.aspx"></asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="hlPriceLoader" runat="server" Text="#Orders#" meta:resourcekey="hlPriceLoader"
+                            NavigateUrl="~/Controls/Store/Admin/PriceLoader.aspx"></asp:HyperLink>
+                    </li>
+                    <li>
+                        <asp:HyperLink ID="hlCommonStoreSettings" runat="server" Text="#Store settings#" meta:resourcekey="hlCommonStoreSettings"
+                            NavigateUrl="~/Controls/Store/Admin/CommonStoreSettings.aspx"></asp:HyperLink>
+                    </li>
+                </ul>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+        <div id="content">
+            <asp:ContentPlaceHolder ID="cphMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            Sys.WebForms.PageRequestManager.getInstance().add_endRequest(UpdateEndRequest);
+            UpdateEndRequest();
+            $(".popup-panel.hidden-popup-panel").removeClass("hidden-popup-panel");
+        });
+
+        $(document).click(function (event) {
+            if (!$(event.target).closest('.divCategoriesTree, input[id*="tbSelecedName"]').length) {
+                $('.divCategoriesTree').removeClass('display');
+            }
+
+            if (!$(event.target).closest('.divPagesTree, input[id*="tbSelecedParentPageCode"]').length) {
+                $('.divPagesTree').removeClass('display');
+            }
+        });
+
+        function UpdateEndRequest() {
+            $('#mainMenu ul li a').each(function (i, elem) {
+                if (window.location.href.indexOf($(elem).attr("href")) !== -1)
+                    $(elem).addClass('active');
+            });
+
+            $(".product-images").sortable({
+                update: function (event, ui) {
+                    $(".product-images .tbSN").each(function (i, elem) {
+                        $(elem).val(i)
+                    })
+                    DisplayLoader()
+                    $("input[id*=bUpdateSuquancesNumbers]").click()
+                }
+            });
+            $(".product-images").disableSelection();
+        }
+
+        function ShowHidePanel(panelClassName) {
+            var panelClassName = '.' + panelClassName;
+            $(panelClassName).toggle("fast", function () { });
+        }
+
+        function ShowCategoryTree() {
+            $('.divCategoriesTree').addClass('display');
+            $('.divCategoriesTree').css('width', $('input[id*="tbSelecedName"]').width() + 'px');
+        }
+
+        function ShowPagesTree() {
+            $('.divPagesTree').addClass('display');
+            $('.divPagesTree').css('width', $('input[id*="tbSelecedParentPageCode"]').width() + 'px');
+        }
+
+        function SearchFieldsShowHide(fields, searchIcon) {
+            if ($("#" + fields).is(":hidden")) {
+                $("#" + fields).slideDown(300);
+                $("#" + searchIcon).css("background-image", "url('../Admin/Styles/Images/sfMinus.GIF')");
+            } else {
+                $("#" + fields).slideUp(300);
+                $("#" + searchIcon).css("background-image", "url('../Admin/Styles/Images/sfPlus.GIF')");
+            }
+        }
+    </script>
+    </form>
+</body>
+</html>

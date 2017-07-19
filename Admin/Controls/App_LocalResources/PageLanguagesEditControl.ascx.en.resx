@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="bCancel.Text" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="bCancel.Tooltip" xml:space="preserve">
+    <value>To cancel changes</value>
+  </data>
+  <data name="bDelete.Text" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="bDelete.Tooltip" xml:space="preserve">
+    <value>To delete this item</value>
+  </data>
+  <data name="bSave.Text" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="bSave.Tooltip" xml:space="preserve">
+    <value>To save changes</value>
+  </data>
+  <data name="confirmDeleteMessage" xml:space="preserve">
+    <value>Are you sure you want to delete item ?</value>
+  </data>
+  <data name="InfoMsg_Updated.Text" xml:space="preserve">
+    <value>Data saved.</value>
+  </data>
+  <data name="lDisplayPage.Text" xml:space="preserve">
+    <value>Display in menu: </value>
+  </data>
+  <data name="lLanguage.Text" xml:space="preserve">
+    <value>Language:</value>
+  </data>
+  <data name="lMenuDescription.Text" xml:space="preserve">
+    <value>Menu description (popup description to menu item):</value>
+  </data>
+  <data name="lMenuDisplayName.Text" xml:space="preserve">
+    <value>Menu display name:</value>
+  </data>
+  <data name="lMetaDescription.Text" xml:space="preserve">
+    <value>Meta "Description":</value>
+  </data>
+  <data name="lMetaKeywords.Text" xml:space="preserve">
+    <value>Meta "Keywords":</value>
+  </data>
+  <data name="lNote.Text" xml:space="preserve">
+    <value>Page note:</value>
+  </data>
+  <data name="lPageLangEditControlHeader.Text" xml:space="preserve">
+    <value>Edit/Delete page languages</value>
+  </data>
+  <data name="lPageTitle.Text" xml:space="preserve">
+    <value>Page title:</value>
+  </data>
+  <data name="lUrlPageName.Text" xml:space="preserve">
+    <value>Url page name:</value>
+  </data>
+  <data name="ErrorMsg_FatalErrorToUser.Text" xml:space="preserve">
+    <value>Error! Sorry, there was a system error. An error message was sent to developers and will be fixed in the near future.</value>
+  </data>
+  <data name="rfvLangName.ErrorMessage" xml:space="preserve">
+    <value>Language is required field</value>
+  </data>
+  <data name="rfvMenuDisplayName.ErrorMessage" xml:space="preserve">
+    <value>Menu display name is required field</value>
+  </data>
+  <data name="rfvMetaDescription.ErrorMessage" xml:space="preserve">
+    <value>Meta "Description" is required field</value>
+  </data>
+  <data name="rfvMetaKeywords.ErrorMessage" xml:space="preserve">
+    <value>Meta "Keywords" is required field</value>
+  </data>
+  <data name="rfvPageTitle.ErrorMessage" xml:space="preserve">
+    <value>Page title is required field</value>
+  </data>
+  <data name="rfvUrlPageName.ErrorMessage" xml:space="preserve">
+    <value>Url page name is required field</value>
+  </data>
+  <data name="lRedirectURL.Text" xml:space="preserve">
+    <value>URL:</value>
+  </data>
+  <data name="lUseRedirectURL.Text" xml:space="preserve">
+    <value>Use an external link:</value>
+  </data>
+  <data name="rfvtbRedirectURL.ErrorMessage" xml:space="preserve">
+    <value>Url is required field</value>
+  </data>
+  <data name="chRedirectURLNewWindowOpen.Text" xml:space="preserve">
+    <value>Open in new window</value>
+  </data>
+  <data name="InfoMsg_Deleted.Text" xml:space="preserve">
+    <value>Delete done.</value>
+  </data>
+  <data name="lActivePage.Text" xml:space="preserve">
+    <value>Active page:</value>
+  </data>
+  <data name="ErrorMsg_UQ_PageLanguages_UrlPageName_LanguageID.Text" xml:space="preserve">
+    <value>Error! There is already a page with the specified name for the language</value>
+  </data>
+  <data name="rfvUrlPageName1.ErrorMessage" xml:space="preserve">
+    <value>Url adress "gallery" is reserved.</value>
+  </data>
+  <data name="revUrlPageName.ErrorMessage" xml:space="preserve">
+    <value>(%, &amp;, *, +, #) invalid characters for url!</value>
+  </data>
+  <data name="ErrorFK_ContentLines_DetailsPageLanguageID_PageLanguages_PageLanguageID.Text" xml:space="preserve">
+    <value>Unable to perform removal! This page contains the page of detail for one item from the list on the website. Please remove the binding, and then repeat the deletion.</value>
+  </data>
+  <data name="ErrorFK_ContentLines_PageLanguageID_PageLanguages_PageLanguageID.Text" xml:space="preserve">
+    <value>Unable to perform the removal, before removing the page, remove all entries in the page.</value>
+  </data>
+  <data name="ErrorFK_Images_PageLanguageID_PageLanguages_PageLanguageID.Text" xml:space="preserve">
+    <value>Unable to perform delete, delete the page before deleting all the images in the galleries on the page</value>
+  </data>
+  <data name="URLErrorMsg_FatalErrorToUser.Text" xml:space="preserve">
+    <value>This url name already exist. Change url name and save item again!</value>
+  </data>
+  <data name="UrlHasResolvedWord" xml:space="preserve">
+    <value>Url adress "{0}" is reserved.</value>
+  </data>
+  <data name="lShowHideMetaData.Text" xml:space="preserve">
+    <value>Show/hide additional fields</value>
+  </data>
+  <data name="lLanguageToFilling.Text" xml:space="preserve">
+    <value>Filling language:</value>
+  </data>
+  <data name="EmptytbName.Text" xml:space="preserve">
+    <value>Field "Menu display name" can not be empty</value>
+  </data>
+  <data name="warning.Text" xml:space="preserve">
+    <value>Warning!</value>
+  </data>
+  <data name="ibUpdateNameUrl.ToolTip" xml:space="preserve">
+    <value>Update "Url page name". (Current value will be deleted)</value>
+  </data>
+  <data name="hlShowPage.Text" xml:space="preserve">
+    <value>Show page</value>
+  </data>
+  <data name="pnMetaData.GroupingText" xml:space="preserve">
+    <value>Meta data:</value>
+  </data>
+  <data name="lActivePageHelp.ToolTip" xml:space="preserve">
+    <value>Установите галочку если эту страницу можно будет выбрать в меню.</value>
+  </data>
+</root>

@@ -1,0 +1,18 @@
+﻿#ContentLineView .row.editbuttons{margin:5px}
+#ContentLineView .float-left{float:left;}
+#ContentLineView .photo{float:left;padding:0 10px}
+#ContentLineView .photo img{border:none; max-width:300px;}
+#ContentLineView .titel{display:block}
+#ContentLineView .clear{clear:both;}
+#ContentLineView .content{float:left}
+#ContentLineView .cliRowStyle, #ContentLine .cliAlteringRowStyle{padding:10px 10px 10px 10px}
+#ContentLineView .cliRowStyle{background-color:White}
+#ContentLineView .cliAlteringRowStyle{background-color: #EFEFF5}
+#ContentLineView .url-details{padding-top:20px}
+
+.slider {position:relative}
+#page-preloader{position:absolute;left:0;top:0;right:0;bottom:0;background:#fff;z-index:500}
+#page-preloader .spinner {width:32px;height:32px;position:absolute;left:50%;top:50%;background:url(images/ajax-loader.gif) no-repeat 50% 50%;margin:-16px 0 0 -16px}
+
+
+

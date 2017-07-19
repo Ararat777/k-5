@@ -1,0 +1,91 @@
+#ContentLineEdit span, #ContentLineEdit label{font-weight:normal; font-style:normal; font-family:Arial, Sans-Serif; font-size:12px }
+#ContentLineEdit a, #ContentLineEdit a:visited, #ContentLineEdit a:hover{color:Blue;font-size:12px;text-decoration:uhderline;font-style:normal;background-color:transparent;cursor:pointer}
+#ContentLineEdit a:active{color:red;cursor:pointer}
+#ContentLineEdit a img{border:none;}
+#ContentLineEdit .text-left{text-align:left}
+#ContentLineEdit .text-right{text-align:right}
+#ContentLineEdit .float-left{float:left;}
+#ContentLineEdit .text-bold{font-weight:700}
+#ContentLineEdit .clear{clear:both}
+#ContentLineEdit .w-100{width:100%}
+#ContentLineEdit textarea{resize:vertical}
+#ContentLineEdit>div>.row.editbuttons{margin:5px 25px;width:1000px;text-align:right}
+#ContentLineEdit img{border:none;padding:0;margin:0;top:0;left:0}
+#ContentLineEdit .grid a, #ContentLineEdit .grid a:hover ,#ContentLineEdit .grid a:visited{color:blue;text-decoration:underline}
+#ContentLineEdit .grid a:hover{cursor:pointer}
+#ContentLineEdit .grid a:active{color:red;text-decoration:underline}
+#ContentLineEdit .red{/* color:#FF0000 */}
+/** ContentLine Edit **/
+#ContentLineEdit .dEditpopup-background{background:#444444 url(images/modalB.png) 50% 50% repeat;opacity:.70;filter:Alpha(Opacity=70);position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:600 !important}
+#ContentLineEdit .dEditpopup-panel{background-color:#FFFFFF;z-index:601 !important;position:fixed;top:auto;left:auto;min-width:600px;min-height: 230px;max-width:95%;max-height:95%;overflow: overlay;}
+#ContentLineEdit .items{width:1000px;}
+#ContentLineEdit .items .photo{height:auto;margin-right: 10px;overflow: hidden;}
+#ContentLineEdit .header span{text-transform:uppercase;font-weight:900;margin:0 0 10px 0;color:#6c6c6a;}
+#ContentLineEdit .buttons{padding: 5px 0;}
+#ContentLineEdit .panel.photo{margin-right:15px;padding:0}
+#ContentLineEdit .photo-block{border:1px dotted black;width:150px;height:150px;display:table-cell;vertical-align:middle;text-align:center}
+#ContentLineEdit .photo-block img{max-height:150px;max-width:150px;top:0;left:0}
+#ContentLineEdit .grid{width:100%;}
+#ContentLineEdit .grid .buttons{padding:0}
+#ContentLineEdit .grid td, #ContentLineEdit .grid th{border:1px solid Gray}
+#ContentLineEdit .grid .rowe{background-color:#F5F5F5}
+#ContentLineEdit .grid .rowe-alt{background-color:#F0FFFF}
+#ContentLineEdit .grid .rowe td, #ContentLineEdit .grid .rowe-alt td, #ContentLineEdit .grid .rowe-sel td{line-height:20px;font-weight:100;padding:3px}
+#ContentLineEdit .grid .pager{height:40px;line-height:40px;background-color:#7AA4CC;border:none}
+#ContentLineEdit .grid .pager td{padding:0 0 0 10px;border:none}
+#ContentLineEdit .grid .pager table, #ContentLineEdit .grid .pager table a{color:#ffffff}
+#ContentLineEdit .grid .pager table tr{border: 0px solid black}
+#ContentLineEdit .grid .row-empty{line-height:118px;background-color:#f2f5fd;text-align:center;color:#8a8a8a}
+#ContentLineEdit .grid .row-empty td{ padding:0 20px}
+#ContentLineEdit .grid .panel-bt{padding-bottom:5px}
+#ContentLineEdit .grid .panel-bt fieldset{padding:0.35em 0.75em;}
+#ContentLineEdit .grid .panel-bt span{padding:5px}
+#ContentLineEdit .grid .propertis{}
+#ContentLineEdit .grid .left-block{width:auto !important;overflow: hidden;}
+#ContentLineEdit .items-edit{width:1000px;margin: 5px;}
+#ContentLineEdit .content-edit{background-color:#edf5ff;border: 1px solid #ccc;padding:0.25em 0.5em}
+#ContentLineEdit .leftSide{width:auto !important;width:100%}
+#ContentLineEdit .content-edit .edit-fields{/* padding:10px; */}
+#ContentLineEdit .content-edit .parameters{margin-bottom:10px;/*clear:both*/}
+#ContentLineEdit .content-edit .parameters .name span{/*float:left;width:174px;*/text-align:right;font-weight:700;/*margin-right:15px;line-height:22px*/}
+#ContentLineEdit .content-edit .parameters.dates .name{/* float:left; */line-height:22px;}
+#ContentLineEdit .content-edit .parameters.dates .value{min-width:744px;}
+#ContentLineEdit .content-edit .parameters .value{}
+#ContentLineEdit .content-edit .parameters .value textarea{width:771px;border:1px solid silver;padding:2px;}
+#ContentLineEdit .content-edit .parameters select{/* width:777px; */}
+#ContentLineEdit .content-edit .parameters .value input.date{width:150px;display: inline-block;}
+#ContentLineEdit .content-edit .parameters .value .period span{line-height:22px;padding:0 5px}
+#ContentLineEdit .content-edit .calendar{background-color:White;border:1px solid Gray;}
+#ContentLineEdit .content-edit .parameters .value input.number{width: 45px;text-align: center;}
+#ContentLineEdit .content-edit .parameters .value .icon{vertical-align:text-bottom}
+#ContentLineEdit .edit-fields .panel .row{margin:5px 0 10px 0}
+#ContentLineEdit .content-edit .additionalFields .name span{float:left;width:155px;text-align:left;font-weight:700;margin-right:0;line-height:22px}
+#ContentLineEdit .content-edit .additionalFields .value input[type="text"]{width:785px}
+#ContentLineEdit .content-edit .tbNote{width:938px;}
+#ContentLineEdit .panel legend{font-weight:bold}
+#ContentLineEdit .panel.pnDescription legend{font-weight:normal}
+#ContentLineEdit .content-edit .sortDescription span{color:#757272;font-style:italic}
+.inputLineWidth {width: 320px;float: left;overflow: hidden;}
+.into_divDetailPage {position:relative; float: right;margin:0;padding: 10px;background:#fbf4b7;border-radius:0;border:none;width: 410px;padding-left: 60px;}
+.into_divDetailPage:after {position:absolute;top:50%;left: 21px;content:"\e086";font-family:'Glyphicons Halflings';font-size: 19px;transform: translateY(-50%);}
+
+
+#ContentLineEdit .into_divDetailPage span {color:#414344;font-size: 12px;font-style: italic;}
+/** ContentLineGroups View **/
+#ContentLineEdit .contentLine-groups-view select{width: 600px;}
+.contentLine-groups { position: relative;}
+.contentLine-groups .div-row.editbuttons{position: absolute; top:0; right:0}
+/** End ContentLineGroups View **/
+/** ContentLineGroups Edit **/
+#ContentLineEdit .groups-tree{width:49%}
+#ContentLineEdit .groups-tree table{width:100%;border:1px solid silver}
+#ContentLineEdit .groups-tree table td{padding:5px}
+#ContentLineEdit .groups-tree table td.buttonsColumn{width:35px}
+#ContentLineEdit .groups-edit-fields{width:49%;float:right}
+#ContentLineEdit .groups-edit-fields .dControlButtons{text-align:right;margin-top:10px}
+#ContentLineEdit .groups-edit-fields input[type="text"], #ContentLineEdit .groups-edit-fields textarea{width:100%;border:1px solid silver;padding:2px 0}
+/** End ContentLineGroups Edit **/
+#ContentLineEdit .divSelectingParentPageCode input[id*="tbSelecedParentPageCode"] {width:100%}
+#ContentLineEdit .divSelectingParentPageCode .divPagesTree.display {display:block}
+#ContentLineEdit .divSelectingParentPageCode .divPagesTree{display:none;max-height:300px;overflow-y:auto;background:#fff;border:1px solid silver;border-top:none;position:absolute;z-index:1001}
+#ContentLineEdit .divSelectingParentPageCode .divPagesTree a.node-sel{color:#d25000}

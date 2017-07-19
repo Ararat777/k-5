@@ -1,0 +1,9 @@
+﻿#ContentLineSlider .row-bt.editbuttons{margin:5px}
+#ContentLineSlider .titel{display:block}
+#ContentLineSlider .clear{clear:both;}
+#ContentLineSlider .url-details{padding-top:20px}
+#ContentLineSlider .text {position: absolute; right:0; top:0;}
+.slide_list + .slide_list .text {display: none !important;}
+
+
+

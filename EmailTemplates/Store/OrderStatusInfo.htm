@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title><%Title%></title>
+</head>
+<body style="font-family: Verdana; font-size: 12px;">
+    <style type="text/css">
+        #orderStatusChange .welcomUser{font-size:16px;}
+        #orderStatusChange #delivery {font-size:12px;}
+        #orderStatusChange #delivery .deliveryFieldName{font-weight:bold}
+        #orderStatusChange .sep{height: 20px;width: 100%;}
+        #orderStatusChange #footer{text-align:right}
+        #orderStatusChange .footer{text-align: right;margin-top: 10px;float:right}
+        #orderStatusChange .footer .totalSum{font-weight: bold;}
+    </style>
+    <div id="orderStatusChange">
+        <div class="orderNumber">
+            <div>
+                <span class="welcomUser">
+                    <%WelcomUser%></span>
+            </div>
+            <div class="orderInform">
+                <span><%OrderNumberDescription%></span>
+                <span class="orderNumber">№<%OrderNumber%></span>    
+                <span class="orderDate"><%OrderDate%></span>
+            </div>
+            
+        </div>
+        <div style="margin: 15px 0;">
+            <span>
+                <%StatusInformation%></span>
+        </div>
+        <div class="description">
+            <span>
+                <%Description%>
+            </span>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,62 @@
+.slider{ position:relative;}
+
+.ui-carousel {	margin: 0 auto;		padding: 0;	position: relative; /*for ie7 to work e.g in html carousels*/	}
+
+.ui-carousel > .wrapper {
+    margin: 0;
+    padding: 0;
+    width: 9999px;
+}
+
+.ui-carousel > .wrapper > * {
+	border: 0;
+	display: block;
+	float: left;
+	height: 100px;
+	overflow: hidden;
+	width: 100px;	
+}
+
+.ui-carousel-next, .ui-carousel-prev
+{
+    width: 60px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+}
+
+.ui-carousel-next
+{
+    right:0;
+    background:url('img/arrow-right.png') center center no-repeat
+}
+
+.ui-carousel-prev
+{
+    left:0;
+    background:url('img/arrow-left.png') center center no-repeat
+}
+
+.bullet
+{
+    background: url('img/page-off.png') center center no-repeat;
+    display: block;
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    margin-right: 5px;
+    float: left;
+}
+
+.bullet.off
+{
+    background: url('img/page-off.png') center center no-repeat;
+}
+
+.bullet.on
+{
+    background: url('img/page-on.png') center center no-repeat;
+}
+

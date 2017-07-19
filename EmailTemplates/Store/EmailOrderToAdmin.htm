@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>
+        <%Title%></title>
+    <style type="text/css">
+        *
+        {
+            color: Gray;
+        }
+        body
+        {
+            font-family: Arial !important;
+        }
+        #order
+        {
+            margin: 0 5px;
+        }
+        #order .welcomUser
+        {
+            font-size: 16px;
+            color: #c00;
+        }
+        #order #delivery
+        {
+            font-size: 12px;
+            color: green;
+        }
+        #order #delivery .deliveryFieldName
+        {
+            font-weight: bold;
+            color: Black;
+        }
+        #order .sep
+        {
+            height: 20px;
+            width: 100%;
+        }
+        #order #footer
+        {
+            text-align: right;
+        }
+        #order .footer
+        {
+            text-align: right;
+            margin-top: 10px;
+            float: right;
+        }
+        #order .footer .totalSum
+        {
+            font-weight: bold;
+        }
+        .SumInOrder .sumDescription span
+        {
+            font-size: 15px;
+            padding-left: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            vertical-align: top;
+            color: #000;
+        }
+        .SumInOrder .MoneySum span, .SumInOrder .currency span
+        {
+            font-size: 23px;
+            font-weight: bold;
+            padding-right: 20px;
+            vertical-align: baseline;
+        }
+        #delivery .row span
+        {
+            font-size: 15px;
+            display: inline-block;
+            padding-left: 15px;
+        }
+        
+        #footer, #delivery
+        {
+            padding-left: 15px;
+        }
+    </style>
+</head>
+<body style="font-family: Verdana; font-size: 12px;">
+    <div id="order">
+        <div class="orderNumber">
+            <div>
+                <span class="welcomUser" style="font-size: 19px; padding-bottom: 18px; color: rgb(0, 119, 204 );">
+                    <%AdminEmail_EmailHeaderText%></span>
+            </div>
+            <div class="thanksNote" style="font-size: 15px;font-weight:bold;line-height:24px;color:#c00; ">
+                <%AdminEmail_RecommendationText%>
+            </div>
+        </div>
+        <div style="margin: 5px 0;">
+            <span>
+                <%AdminEmail_ProductListHeaderText%></span>
+        </div>
+        <div class="all" style="margin-bottom: 10px; border: 1px solid #e3e3e3; border-radius: 5px;
+            width: 100%; box-shadow: 0px 4px 5px rgba(0,0,0,.5); padding: 0 5px 10px; box-sizing: border-box;">
+            <div>
+                <table style="width: 100%">
+                    <tr>
+                        <td colspan="4" style="font-size: 24px; margin: 0; padding-left: 10px;">
+                            <span style="line-height: 36px;">
+                                <%AdminEmail_OrderNumberDescription%></span> <span style="line-height: 36px;">№<%AdminEmail_OrderNumber%></span>
+                        </td>
+                        <td style="vertical-align: middle; color: #666666; font-size: 12px; padding-right: 20px;
+                            text-align: right;">
+                            <span class="orderDate">
+                                <%AdminEmail_OrderDate%></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <table style="width: 100%; border-collapse: collapse; border: 1px solid #f0f0f0;">
+                <%StartRepeatBlock%>
+                <tr>
+                    <td style="border-top: 1px solid #e3e3e3;<%ImagesColumnDisplayStyle%>">
+                    </td>
+                    <td style="font-weight: bold; text-align: center; border: 1px solid #e3e3e3;">
+                        Название товара
+                    </td>
+                    <td style="font-weight: bold; text-align: center; border: 1px solid #e3e3e3;">
+                        Цена товара
+                    </td>
+                    <td style="font-weight: bold; text-align: center; border: 1px solid #e3e3e3;">
+                        Кол-во
+                    </td>
+                    <td style="font-weight: bold; text-align: center; border: 1px solid #e3e3e3;">
+                        Cумма
+                    </td>
+                </tr>
+                <tr style="margin-bottom: 15px; text-align: center;">
+                    <td style="width: 110px;<%ImagesColumnDisplayStyle%>">
+                        <a href="<%ProductLink%>" target="_blank">
+                            <img src="<%ImageUrl%>" style="max-width: 100px; max-height: 100px;" />
+                        </a>
+                    </td>
+                    <td style="vertical-align: middle; text-align: center; border-left: 1px solid #e3e3e3;">
+                        <div style="margin-bottom: 15px; color: #104889; font-size: 18px;">
+                            <a href="<%ProductLink%>" target="_blank" style="color: #0077cc;">
+                                <%ProductName%></a>
+                        </div>
+                    </td>
+                    <td style="text-align: center; border-left: 1px solid #e3e3e3;">
+                        <span>
+                            <%Price%></span>&nbsp;<span><%Currency%></span>
+                    </td>
+                    <td style="text-align: center; border-left: 1px solid #e3e3e3;">
+                        <span>
+                            <%Amount%></span>
+                    </td>
+                    <td style="text-align: center; border-left: 1px solid #e3e3e3;">
+                        <span>
+                            <%SummProductPrice%></span>&nbsp;<span><%Currency%></span>
+                    </td>
+                </tr>
+                <%RepeatBlock%>
+                <%EndRepeatBlock%>
+                <%RepeatBlock%>
+            </table>
+            <div id="footer">
+                <p style="text-align: right;">
+                    <span style="font-size: 16px; padding-right: 10px; padding-top: 15px; vertical-align: baseline;">
+                        <%AdminEmail_FooterText%></span><span style="font-size: 23px; font-weight: bold; padding-left: 20px;
+                            text-align: right; vertical-align: baseline;"><%SummPrice%></span><span style="font-size: 23px;
+                                font-weight: bold; padding-right: 20px; text-align: right; vertical-align: baseline;"><%Currency%></span></p>
+                <!--<p><span style="padding-left: 10px;"><%SumProductInOrderDescription%></span> <span> <%SumInOrder%></span><span><%SumInOrderCurrency%></span> </p>
+                <p><span style="padding-left: 10px;" ><%DiscountDescription%></span><span ><%DiscountSum%></span><span><%DiscountCurrency%></span></p>-->
+                <div style="clear: both">
+                </div>
+                <p>
+                    <span style="padding-left: 10px;">
+                        <%DeliveryDescription%></span><%DeliverySum%></span></p>
+                <div style="clear: both">
+                </div>
+            </div>
+            <div id="delivery">
+                <div class="row">
+                    <span style="padding-left: 10px;" class="deliveryFieldName">
+                        <%AdminEmail_RecipientFieldName%></span>&nbsp;<span><%AdminEmail_RecipientName%></span>
+                </div>
+                <div class="row">
+                    <span style="padding-left: 10px;" class="deliveryFieldName">
+                        <%AdminEmail_UserTelephoneDescription%></span>&nbsp;<span><%AdminEmail_UserTelephone%></span>
+                </div>
+                <div class="row">
+                    <span style="padding-left: 10px;" class="deliveryFieldName">
+                        <%AdminEmail_UserEmailDescription%></span>&nbsp;<span><%AdminEmail_UserEmail%></span>
+                </div>
+                <div class="row">
+                    <span style="padding-left: 10px;" class="deliveryFieldName">
+                        <%AdminEmail_DeliveryTypeFieldName%></span>&nbsp;<span><%AdminEmail_DeliveryType%></span>
+                </div>
+                <div class="row">
+                    <span style="padding-left: 10px;" class="deliveryFieldName">
+                        <%AdminEmail_DeliveryServiceFieldName%></span>&nbsp;<span><%AdminEmail_DeliveryService%></span>
+                </div>
+                <div class="row">
+                    <span style="padding-left: 10px;" class="deliveryFieldName">
+                        <%AdminEmail_DeliveryCityFieldName%></span>&nbsp;<span><%AdminEmail_DeliveryCity%></span>
+                </div>
+                <div class="row">
+                    <span style="padding-left: 10px;" class="deliveryFieldName">
+                        <%AdminEmail_WarehouseNumberFieldName%></span>&nbsp;<span><%AdminEmail_WarehouseNumber%></span>
+                </div>
+                <div id="orderComments">
+                    <div style="padding-left: 10px" class="orderCommentsTitle deliveryFieldName">
+                        <%AdminEmail_OrderCommentsTitle%>
+                    </div>
+                    <div style="padding-left: 10px" class="orderCommentsText">
+                        <%AdminEmail_OrderCommentsText%>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

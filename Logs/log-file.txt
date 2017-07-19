@@ -1,0 +1,468 @@
+2016-07-06 00:33:34 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-07-06 00:47:50 INFO  - ArticlesDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 00:48:54 INFO  - ArticlesDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 00:49:33 INFO  - ArticlesDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 00:52:55 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 00:54:03 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 00:55:49 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 00:56:42 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 00:57:29 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 00:58:16 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 00:59:02 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 01:00:29 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 01:01:28 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 01:03:40 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 01:04:51 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 01:05:44 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:36:24 INFO  - Default - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:37:22 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:37:44 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:38:06 INFO  - Collective - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:38:40 INFO  - Articles - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:39:13 INFO  - Contacts - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:39:43 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:40:25 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:40:47 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:41:11 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:41:35 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:41:57 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-06 17:42:28 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Данные сохранены.
+2016-07-18 17:59:20 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-07-18 17:59:32 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-07-18 18:00:00 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-07-18 18:00:16 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-07-28 12:13:09 INFO  - Contacts - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-07-28 12:13:24 INFO  - Contacts - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-07-28 12:31:56 FATAL - Login - Login - LoginStatus1_LoggedOut
+System.Threading.ThreadAbortException: Поток находился в процессе прерывания.
+   в System.Threading.Thread.AbortInternal()
+   в System.Threading.Thread.Abort(Object stateInfo)
+   в System.Web.HttpResponse.AbortCurrentThread()
+   в i.LightSite.Web.Controls.Login.LoginStatus1_LoggedOut(Object sender, LoginCancelEventArgs e)
+2016-07-28 12:38:56 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-07-28 12:40:03 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-09-20 09:58:33 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-09-20 09:59:42 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-09-20 10:00:37 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-11-03 15:48:39 FATAL - Default - View - OnLoad
+System.OutOfMemoryException: Выдано исключение типа "System.OutOfMemoryException".
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes, StackCrawlMark& stackMark)
+   в System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   в System.Activator.CreateInstance(Type type, Object[] args)
+   в System.Data.Common.Internal.Materialization.CoordinatorScratchpad.Compile()
+   в System.Data.Common.Internal.Materialization.Translator.TranslateColumnMap[TRequestedType](QueryCacheManager queryCacheManager, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean valueLayer)
+   в System.Data.Common.Internal.Materialization.ShaperFactory.TypedShaperFactoryCreator`1.TypedCreate(QueryCacheManager cacheManager, ColumnMap columnMap, MetadataWorkspace metadata, SpanIndex spanInfo, MergeOption mergeOption, Boolean valueLayer)
+   в System.Data.Common.Internal.Materialization.ShaperFactory.Create(Type elementType, QueryCacheManager cacheManager, ColumnMap columnMap, MetadataWorkspace metadata, SpanIndex spanInfo, MergeOption mergeOption, Boolean valueLayer)
+   в System.Data.Objects.Internal.ObjectQueryExecutionPlan.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Span span, ReadOnlyCollection`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   в System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   в System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   в i.LightSite.Data.Provider.ContentHtmlTextsProvider.GetItemBySearchParams(IContentHtmlText searchParams)
+   в i.LightSite.Controller.Base.BaseViewController`1.GetItemBySearchParams(T searchParams)
+   в i.LightSite.Web.Controls.ContentHtmlText.View.LoadContentHtmlText()
+   в i.LightSite.Web.Controls.ContentHtmlText.View.OnLoad(EventArgs e)
+2016-11-03 15:48:39 FATAL - Default - View - OnLoad
+System.OutOfMemoryException: Выдано исключение типа "System.OutOfMemoryException".
+   в System.Runtime.CompilerServices.RuntimeHelpers._CompileMethod(IRuntimeMethodInfo method)
+   в System.Reflection.Emit.DynamicMethod.CreateDelegate(Type delegateType, Object target)
+   в System.Linq.Expressions.Expression`1.Compile()
+   в System.Data.Common.Internal.Materialization.CoordinatorScratchpad.SecurityBoundaryExpressionVisitor.VisitMemberInit(MemberInitExpression init)
+   в System.Data.Common.Internal.Materialization.CoordinatorScratchpad.SecurityBoundaryExpressionVisitor.VisitMethodCall(MethodCallExpression m)
+   в System.Linq.Expressions.EntityExpressionVisitor.VisitConditional(ConditionalExpression c)
+   в System.Data.Common.Internal.Materialization.CoordinatorScratchpad.Compile()
+   в System.Data.Common.Internal.Materialization.Translator.TranslateColumnMap[TRequestedType](QueryCacheManager queryCacheManager, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean valueLayer)
+   в System.Data.Common.Internal.Materialization.ShaperFactory.TypedShaperFactoryCreator`1.TypedCreate(QueryCacheManager cacheManager, ColumnMap columnMap, MetadataWorkspace metadata, SpanIndex spanInfo, MergeOption mergeOption, Boolean valueLayer)
+   в System.Data.Common.Internal.Materialization.ShaperFactory.Create(Type elementType, QueryCacheManager cacheManager, ColumnMap columnMap, MetadataWorkspace metadata, SpanIndex spanInfo, MergeOption mergeOption, Boolean valueLayer)
+   в System.Data.Objects.Internal.ObjectQueryExecutionPlan.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Span span, ReadOnlyCollection`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   в System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   в System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   в i.LightSite.Data.Provider.ContentHtmlTextsProvider.GetItemBySearchParams(IContentHtmlText searchParams)
+   в i.LightSite.Controller.Base.BaseViewController`1.GetItemBySearchParams(T searchParams)
+   в i.LightSite.Web.Controls.ContentHtmlText.View.LoadContentHtmlText()
+   в i.LightSite.Web.Controls.ContentHtmlText.View.OnLoad(EventArgs e)
+2016-11-03 15:48:39 FATAL - Default - View - OnLoad
+System.OutOfMemoryException: Выдано исключение типа "System.OutOfMemoryException".
+   в System.Runtime.CompilerServices.RuntimeHelpers._CompileMethod(IRuntimeMethodInfo method)
+   в System.Reflection.Emit.DynamicMethod.CreateDelegate(Type delegateType, Object target)
+   в System.Linq.Expressions.Expression`1.Compile()
+   в System.Data.Common.Internal.Materialization.CoordinatorScratchpad.SecurityBoundaryExpressionVisitor.VisitMemberInit(MemberInitExpression init)
+   в System.Data.Common.Internal.Materialization.CoordinatorScratchpad.SecurityBoundaryExpressionVisitor.VisitMethodCall(MethodCallExpression m)
+   в System.Linq.Expressions.EntityExpressionVisitor.VisitConditional(ConditionalExpression c)
+   в System.Data.Common.Internal.Materialization.CoordinatorScratchpad.Compile()
+   в System.Data.Common.Internal.Materialization.Translator.TranslateColumnMap[TRequestedType](QueryCacheManager queryCacheManager, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean valueLayer)
+   в System.Data.Common.Internal.Materialization.ShaperFactory.TypedShaperFactoryCreator`1.TypedCreate(QueryCacheManager cacheManager, ColumnMap columnMap, MetadataWorkspace metadata, SpanIndex spanInfo, MergeOption mergeOption, Boolean valueLayer)
+   в System.Data.Common.Internal.Materialization.ShaperFactory.Create(Type elementType, QueryCacheManager cacheManager, ColumnMap columnMap, MetadataWorkspace metadata, SpanIndex spanInfo, MergeOption mergeOption, Boolean valueLayer)
+   в System.Data.Objects.Internal.ObjectQueryExecutionPlan.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Span span, ReadOnlyCollection`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   в System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   в System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   в i.LightSite.Data.Provider.ContentHtmlTextsProvider.GetItemBySearchParams(IContentHtmlText searchParams)
+   в i.LightSite.Controller.Base.BaseViewController`1.GetItemBySearchParams(T searchParams)
+   в i.LightSite.Web.Controls.ContentHtmlText.View.LoadContentHtmlText()
+   в i.LightSite.Web.Controls.ContentHtmlText.View.OnLoad(EventArgs e)
+2016-11-03 17:53:31 FATAL - Default - iJQMenu - OnLoad
+System.OutOfMemoryException: Выдано исключение типа "System.OutOfMemoryException".
+   в System.Runtime.CompilerServices.RuntimeHelpers._CompileMethod(IRuntimeMethodInfo method)
+   в System.Reflection.Emit.DynamicMethod.CreateDelegate(Type delegateType, Object target)
+   в System.Linq.Expressions.Expression`1.Compile()
+   в System.Data.Common.Internal.Materialization.CoordinatorScratchpad.SecurityBoundaryExpressionVisitor.VisitMemberInit(MemberInitExpression init)
+   в System.Data.Common.Internal.Materialization.CoordinatorScratchpad.SecurityBoundaryExpressionVisitor.VisitMethodCall(MethodCallExpression m)
+   в System.Linq.Expressions.EntityExpressionVisitor.VisitConditional(ConditionalExpression c)
+   в System.Data.Common.Internal.Materialization.CoordinatorScratchpad.Compile()
+   в System.Data.Common.Internal.Materialization.Translator.TranslateColumnMap[TRequestedType](QueryCacheManager queryCacheManager, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean valueLayer)
+   в System.Data.Common.Internal.Materialization.ShaperFactory.TypedShaperFactoryCreator`1.TypedCreate(QueryCacheManager cacheManager, ColumnMap columnMap, MetadataWorkspace metadata, SpanIndex spanInfo, MergeOption mergeOption, Boolean valueLayer)
+   в System.Data.Common.Internal.Materialization.ShaperFactory.Create(Type elementType, QueryCacheManager cacheManager, ColumnMap columnMap, MetadataWorkspace metadata, SpanIndex spanInfo, MergeOption mergeOption, Boolean valueLayer)
+   в System.Data.Objects.Internal.ObjectQueryExecutionPlan.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Span span, ReadOnlyCollection`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   в System.Data.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в i.LightSite.Data.Provider.SitePageLanguagesProvider.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Boolean needParentUrlPageName, Nullable`1 pageID, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Data.Provider.SitePageLanguagesProvider.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Controller.SitePageLanguagesViewController.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Web.Controls.iJQMenu.OnLoad(EventArgs e)
+2016-11-03 17:53:31 FATAL - Default - ContentLineViewSlider - OnLoad
+System.OutOfMemoryException: Выдано исключение типа "System.OutOfMemoryException".
+   в i.LightSite.ContentLine.Providers.ContentLinesProvider.GetListActual(String controlID, Int32 countForDisplay, Nullable`1 pageLanguageID, TypeContentLine contentLineType, Int32 startRows, Int32 maxRows, Boolean displayGroup)
+   в i.LightSite.ContentLine.Controllers.ContentLinesViewController.GetListActual(String controlID, Int32 countForDisplay, Nullable`1 pageLanguageID, TypeContentLine contentLineType, Int32 startRows, Int32 maxRows, Boolean displayGroup)
+   в i.LightSite.ContentLine.Controls.ContentLine.ContentLineSlider.ContentLineViewSlider.RefreshData()
+   в i.LightSite.ContentLine.Controls.ContentLine.ContentLineSlider.ContentLineViewSlider.OnLoad(EventArgs e)
+2016-11-18 10:29:26 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-11-18 10:30:04 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-11-18 10:31:12 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-11-18 10:32:35 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-11-18 10:32:49 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-11-18 10:33:48 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2016-11-18 10:38:13 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-01-08 19:27:09 FATAL - Default - iJQMenu - OnLoad
+System.Data.EntityCommandExecutionException: При выполнении определения команды произошла ошибка. Подробные сведения см. во внутреннем исключении. ---> System.Data.SqlClient.SqlException: Истекло время ожидания (Timeout). Время ожидания истекло до завершения операции или сервер не отвечает. ---> System.ComponentModel.Win32Exception: Время ожидания операции истекло
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в i.LightSite.Data.Provider.SitePageLanguagesProvider.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Boolean needParentUrlPageName, Nullable`1 pageID, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Data.Provider.SitePageLanguagesProvider.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Controller.SitePageLanguagesViewController.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Web.Controls.iJQMenu.OnLoad(EventArgs e)
+2017-02-14 19:21:19 FATAL - Default - iJQMenu - OnLoad
+System.Data.EntityCommandExecutionException: При выполнении определения команды произошла ошибка. Подробные сведения см. во внутреннем исключении. ---> System.Data.SqlClient.SqlException: Истекло время ожидания (Timeout). Время ожидания истекло до завершения операции или сервер не отвечает. ---> System.ComponentModel.Win32Exception: Время ожидания операции истекло
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   в System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   в System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   в System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   в System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в i.LightSite.Data.Provider.SitePageLanguagesProvider.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Boolean needParentUrlPageName, Nullable`1 pageID, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Data.Provider.SitePageLanguagesProvider.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Controller.SitePageLanguagesViewController.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Web.Controls.iJQMenu.OnLoad(EventArgs e)
+2017-02-28 07:10:16 FATAL - Default - ContentLineItemsEditControl - OnLoad
+System.Data.EntityCommandExecutionException: При выполнении определения команды произошла ошибка. Подробные сведения см. во внутреннем исключении. ---> System.Data.SqlClient.SqlException: Истекло время ожидания (Timeout). Время ожидания истекло до завершения операции или сервер не отвечает. ---> System.ComponentModel.Win32Exception: Время ожидания операции истекло
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в i.LightSite.ContentLine.Providers.ContentLineGroupsProvider.GetList(IContentLineGroup searchParams)
+   в i.LightSite.Controller.Base.BaseViewController`1.GetList(T searchParams)
+   в i.LightSite.ContentLine.Controls.Admin.ContentLine.ContentLineGroups.ContentLineGroupsView.RefreshData()
+   в i.LightSite.ContentLine.Controls.Admin.ContentLine.ContentLineGroups.ContentLineGroups.RefreshData()
+   в i.LightSite.ContentLine.Controls.ContentLine.ContentLineItemsEditControl.OnLoad(EventArgs e)
+2017-03-22 17:50:06 FATAL - Default - View - OnLoad
+System.Data.EntityCommandExecutionException: При выполнении определения команды произошла ошибка. Подробные сведения см. во внутреннем исключении. ---> System.Data.SqlClient.SqlException: Ошибка на транспортном уровне при получении результатов с сервера. (provider: Session Provider, error: 19 - Физическое подключение не используется)
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   в System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   в System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   в System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   в System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   в System.Data.SqlClient.SqlDataReader.get_MetaData()
+   в System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   в System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   в System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.EntityClient.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   в System.Data.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   в System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   в i.LightSite.Data.Provider.ContentHtmlTextsProvider.GetItemBySearchParams(IContentHtmlText searchParams)
+   в i.LightSite.Controller.Base.BaseViewController`1.GetItemBySearchParams(T searchParams)
+   в i.LightSite.Web.Controls.ContentHtmlText.View.LoadContentHtmlText()
+   в i.LightSite.Web.Controls.ContentHtmlText.View.OnLoad(EventArgs e)
+2017-03-22 17:50:08 FATAL - Default - View - OnLoad
+System.Data.EntityException: Произошла ошибка базового поставщика в Open. ---> System.Data.SqlClient.SqlException: Клиенту не удалось установить соединение из-за ошибки, возникшей во время инициализации соединения до входа в систему. Возможны следующие причины ошибки: клиент попытался соединиться с неподдерживаемой версией SQL Server; сервер был слишком загружен и не мог принимать новые соединения; ресурсы сервера были ограничены (недостаточно памяти или превышено допустимое число соединений). (provider: Shared Memory Provider, error: 0 - С обоих концов канала отсутствуют процессы.) ---> System.ComponentModel.Win32Exception: С обоих концов канала отсутствуют процессы
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParserStateObject.SNIWritePacket(SNIHandle handle, SNIPacket packet, UInt32& sniError, Boolean canAccumulate, Boolean callerHasConnectionLock)
+   в System.Data.SqlClient.TdsParserStateObject.WriteSni(Boolean canAccumulate)
+   в System.Data.SqlClient.TdsParserStateObject.WritePacket(Byte flushMode, Boolean canAccumulate)
+   в System.Data.SqlClient.TdsParser.SendPreLoginHandshake(Byte[] instanceName, Boolean encrypt)
+   в System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover)
+   в System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   в System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   в System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   в System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData)
+   в System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   в System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   в System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   в System.Data.EntityClient.EntityConnection.Open()
+   в System.Data.Objects.ObjectContext.EnsureConnection()
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   в System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   в i.LightSite.Data.Provider.ContentHtmlTextsProvider.GetItemBySearchParams(IContentHtmlText searchParams)
+   в i.LightSite.Controller.Base.BaseViewController`1.GetItemBySearchParams(T searchParams)
+   в i.LightSite.Web.Controls.ContentHtmlText.View.LoadContentHtmlText()
+   в i.LightSite.Web.Controls.ContentHtmlText.View.OnLoad(EventArgs e)
+2017-03-22 17:50:08 FATAL - Default - View - OnLoad
+System.Data.EntityException: Произошла ошибка базового поставщика в Open. ---> System.Data.SqlClient.SqlException: Клиенту не удалось установить соединение из-за ошибки, возникшей во время инициализации соединения до входа в систему. Возможны следующие причины ошибки: клиент попытался соединиться с неподдерживаемой версией SQL Server; сервер был слишком загружен и не мог принимать новые соединения; ресурсы сервера были ограничены (недостаточно памяти или превышено допустимое число соединений). (provider: Shared Memory Provider, error: 0 - С обоих концов канала отсутствуют процессы.) ---> System.ComponentModel.Win32Exception: С обоих концов канала отсутствуют процессы
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   в System.Data.EntityClient.EntityConnection.Open()
+   в System.Data.Objects.ObjectContext.EnsureConnection()
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   в System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   в i.LightSite.Data.Provider.ContentHtmlTextsProvider.GetItemBySearchParams(IContentHtmlText searchParams)
+   в i.LightSite.Controller.Base.BaseViewController`1.GetItemBySearchParams(T searchParams)
+   в i.LightSite.Web.Controls.ContentHtmlText.View.LoadContentHtmlText()
+   в i.LightSite.Web.Controls.ContentHtmlText.View.OnLoad(EventArgs e)
+2017-03-22 17:50:09 FATAL - Default - iJQMenu - OnLoad
+System.Data.EntityException: Произошла ошибка базового поставщика в Open. ---> System.Data.SqlClient.SqlException: Клиенту не удалось установить соединение из-за ошибки, возникшей во время инициализации соединения до входа в систему. Возможны следующие причины ошибки: клиент попытался соединиться с неподдерживаемой версией SQL Server; сервер был слишком загружен и не мог принимать новые соединения; ресурсы сервера были ограничены (недостаточно памяти или превышено допустимое число соединений). (provider: Shared Memory Provider, error: 0 - С обоих концов канала отсутствуют процессы.) ---> System.ComponentModel.Win32Exception: С обоих концов канала отсутствуют процессы
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   в System.Data.EntityClient.EntityConnection.Open()
+   в System.Data.Objects.ObjectContext.EnsureConnection()
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в i.LightSite.Data.Provider.SitePageLanguagesProvider.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Boolean needParentUrlPageName, Nullable`1 pageID, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Data.Provider.SitePageLanguagesProvider.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Controller.SitePageLanguagesViewController.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Web.Controls.iJQMenu.OnLoad(EventArgs e)
+2017-03-22 17:50:10 FATAL - Default - iJQMenu - OnLoad
+System.Data.EntityException: Произошла ошибка базового поставщика в Open. ---> System.Data.SqlClient.SqlException: Клиенту не удалось установить соединение из-за ошибки, возникшей во время инициализации соединения до входа в систему. Возможны следующие причины ошибки: клиент попытался соединиться с неподдерживаемой версией SQL Server; сервер был слишком загружен и не мог принимать новые соединения; ресурсы сервера были ограничены (недостаточно памяти или превышено допустимое число соединений). (provider: Shared Memory Provider, error: 0 - С обоих концов канала отсутствуют процессы.) ---> System.ComponentModel.Win32Exception: С обоих концов канала отсутствуют процессы
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   в System.Data.EntityClient.EntityConnection.Open()
+   в System.Data.Objects.ObjectContext.EnsureConnection()
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   в System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   в i.LightSite.Data.Provider.SitePageLanguagesProvider.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Boolean needParentUrlPageName, Nullable`1 pageID, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Data.Provider.SitePageLanguagesProvider.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Controller.SitePageLanguagesViewController.GetList(Int64 languageID, Nullable`1 parentID, Boolean onlyRootMenuLevel, Nullable`1 displayPage, String menuForDisplay)
+   в i.LightSite.Web.Controls.iJQMenu.OnLoad(EventArgs e)
+2017-03-22 17:50:10 FATAL - Default - View - OnLoad
+System.Data.EntityException: Произошла ошибка базового поставщика в Open. ---> System.Data.SqlClient.SqlException: Клиенту не удалось установить соединение из-за ошибки, возникшей во время инициализации соединения до входа в систему. Возможны следующие причины ошибки: клиент попытался соединиться с неподдерживаемой версией SQL Server; сервер был слишком загружен и не мог принимать новые соединения; ресурсы сервера были ограничены (недостаточно памяти или превышено допустимое число соединений). (provider: Shared Memory Provider, error: 0 - С обоих концов канала отсутствуют процессы.) ---> System.ComponentModel.Win32Exception: С обоих концов канала отсутствуют процессы
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   в System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   в System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   в System.Data.SqlClient.SqlConnection.Open()
+   в System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.Data.EntityClient.EntityConnection.OpenStoreConnectionIf(Boolean openCondition, DbConnection storeConnectionToOpen, DbConnection originalConnection, String exceptionCode, String attemptedOperation, Boolean& closeStoreConnectionOnFailure)
+   в System.Data.EntityClient.EntityConnection.Open()
+   в System.Data.Objects.ObjectContext.EnsureConnection()
+   в System.Data.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   в System.Data.Objects.ObjectQuery`1.System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+   в System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   в System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   в i.LightSite.Data.Provider.ContentHtmlTextsProvider.GetItemBySearchParams(IContentHtmlText searchParams)
+   в i.LightSite.Controller.Base.BaseViewController`1.GetItemBySearchParams(T searchParams)
+   в i.LightSite.Web.Controls.ContentHtmlText.View.LoadContentHtmlText()
+   в i.LightSite.Web.Controls.ContentHtmlText.View.OnLoad(EventArgs e)
+2017-04-08 15:11:27 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-04-08 15:14:54 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-04-08 15:15:42 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-04-08 15:19:32 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-04-08 15:21:00 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-04-08 15:21:13 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-04-08 15:21:36 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-04-08 15:22:11 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-04-08 15:25:58 INFO  - Default - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-04-08 15:26:29 INFO  - Default - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-04-08 15:26:42 INFO  - Default - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-06-20 11:36:35 INFO  - Contacts - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-06-26 09:47:28 INFO  - Contacts - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-06-26 09:48:21 INFO  - Contacts - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-06-26 09:49:07 INFO  - Contacts - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-01 15:11:28 INFO  - Login - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-01 15:11:56 INFO  - Login - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-01 15:15:31 INFO  - Default - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-01 15:16:10 INFO  - Default - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-01 15:21:16 INFO  - Default - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-01 15:22:05 INFO  - Default - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-01 15:23:18 INFO  - Default - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-01 15:23:56 INFO  - Default - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-01 16:23:41 INFO  - Default - ContentLineItemsEditControl - bSave_Click - Данные обновлены
+2017-07-01 16:24:27 INFO  - Default - ContentLineItemsEditControl - bSave_Click - Данные обновлены
+2017-07-01 16:25:30 INFO  - Default - ContentLineItemsEditControl - bSave_Click - Данные обновлены
+2017-07-01 16:25:54 INFO  - Default - ContentLineItemsEditControl - bSave_Click - Данные обновлены
+2017-07-01 16:26:20 INFO  - Default - ContentLineItemsEditControl - bSave_Click - Данные обновлены
+2017-07-01 16:27:42 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-01 16:29:45 INFO  - Pages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-01 16:33:38 INFO  - Default - ContentLineItemsEditControl - bSave_Click - Данные обновлены
+2017-07-01 16:41:43 INFO  - Pages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-02 20:33:46 INFO  - Login - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-10 18:01:43 INFO  - Pages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-10 18:02:41 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-10 18:02:46 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-10 22:32:57 INFO  - Pages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:04:31 INFO  - Pages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:05:01 INFO  - Pages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:05:18 INFO  - Pages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:05:33 INFO  - Default - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:08:56 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:09:01 INFO  - Pages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:24:38 INFO  - Pages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:27:57 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:37:05 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:37:46 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:39:49 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:41:36 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:43:17 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:43:20 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:47:39 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:48:02 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:48:54 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:49:30 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:51:24 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:52:40 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:55:40 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:58:03 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 01:59:07 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:03:18 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:04:09 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:08:06 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:08:18 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:08:44 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:12:41 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:12:53 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:13:04 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:13:16 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:13:27 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:13:51 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:14:00 INFO  - TextPages - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:19:03 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:20:21 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:20:30 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:20:34 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:21:26 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Изменения сохранены
+2017-07-11 02:21:31 INFO  - CollectiveDetails - BaseEditControl`1 - bSave_Click - Изменения сохранены

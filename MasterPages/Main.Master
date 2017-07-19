@@ -1,0 +1,250 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="k_5_com_ua.MasterPages.MainMaster" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxControl" %>
+<%@ Register TagPrefix="iLightSite" TagName="iJQMenu" Src="~/Controls/iJQMenu.ascx" %>
+<%@ Register TagPrefix="iLightSite" TagName="Login" Src="~/Controls/Login.ascx" %>
+<%@ Register TagPrefix="iLightSite" TagName="ContentHtmlText" Src="~/Controls/ContentHtmlText/ContentHtmlText.ascx" %>
+<%@ Register TagPrefix="iLightSite" TagName="FeedbackForm" Src="~/Controls/FeedbackForm/FeedbackForm.ascx" %>
+
+
+<!DOCTYPE html">
+<html>
+<head runat="server">
+    <%--<meta name="viewport" content="width=device-width, initial-scale=1"/>--%>
+    <meta name="viewport" content="" />
+
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/png" />
+
+    <!-- Bootstrap -->
+    <link href="~/StyleSheets/bootstrap.css" rel="stylesheet" type="text/css" />
+
+    <link href="~/StyleSheets/iJQMenu.css" rel="stylesheet" type="text/css" />
+
+    <!-- UI Jquery-->
+    <link href="~/StyleSheets/smoothness/jquery-ui-1.8.19.custom.css" rel="stylesheet"
+        type="text/css" />
+    <%--<link href="~/StyleSheets/smoothness/jquery-ui-1.8.19.custom.min.css" rel="stylesheet"
+        type="text/css" />--%>
+
+    <!-- Main css-->
+    <link href="~/StyleSheets/Main.css" rel="stylesheet" type="text/css" />
+    <%--<link href="~/StyleSheets/Main.min.css" rel="stylesheet" type="text/css" />--%>
+
+    <title></title>
+    <asp:ContentPlaceHolder ID="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="mainForm" runat="server">
+        <!-- Bootstrap -->
+        <script src='<%= ResolveClientUrl("~/Scripts/bootstrap.min.js") %>' type="text/javascript"></script>
+        <!-- end Bootstrap -->
+
+        <!--[if lt IE 10]>
+         <script src='<%= ResolveClientUrl("~/Scripts/html5shiv.js") %>'></script>
+        <![endif]-->
+        <script src='<%= ResolveClientUrl("~/Scripts/iJQMenu.js") %>' type="text/javascript"></script>
+        <script src='<%= ResolveClientUrl("~/Scripts/jquery-ui.min.js") %>' type="text/javascript"></script>
+        <script src='<%= ResolveClientUrl("~/Scripts/jquery.center.js") %>' type="text/javascript"></script>
+        <script src='<%= ResolveClientUrl("~/Scripts/Site.js") %>' type="text/javascript"></script>
+
+        <asp:PlaceHolder ID="phHeader" runat="server"></asp:PlaceHolder>
+        <ajaxControl:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+        </ajaxControl:ToolkitScriptManager>
+        <div id="page">
+            <!--========================================================
+                            admin panel
+            =========================================================-->
+            <div class="adminPanel">
+                <div id="login-content">
+                    <div id="divBtnsAdminPages" class="lkBtnAdminPages wrapper" runat="server" visible="false">
+                        <div>
+                            <asp:LinkButton Visible="true" ID="lkBtnAdminPages" OnClick="lkBtnAdminPages_OnClick"
+                                runat="server" meta:resourcekey="lkBtnAdminPages" Text="#Admin pages#"></asp:LinkButton>
+                        </div>
+                        <div id="divEnableEditSkinControls" runat="server">
+                            <asp:CheckBox ID="chbEnableEditSkinControls" runat="server" meta:resourcekey="chbEnableEditSkinControls"
+                                AutoPostBack="true" />
+                        </div>
+
+                        <div class="headerItem">
+                            <div id="login">
+                                <asp:LoginView ID="LoginView1" runat="server">
+                                    <AnonymousTemplate>
+                                        <asp:HyperLink ID="hlLoginIn" runat="server" Text="#Log In#" NavigateUrl="~/login"
+                                            CssClass="hlLoginIn" meta:resourcekey="hlLoginIn"></asp:HyperLink>
+                                        <asp:HyperLink ID="hlRegister" runat="server" Text="#Register#" meta:resourcekey="hlRegister"
+                                            NavigateUrl="~/register" CssClass="hlRegister"></asp:HyperLink>
+                                    </AnonymousTemplate>
+                                    <LoggedInTemplate>
+                                        <asp:HyperLink ID="hlMyProfile" runat="server" NavigateUrl="~/UserProfile.aspx">
+                                            <asp:LoginName ID="LoginName1" runat="server" />
+                                        </asp:HyperLink>
+                                        |
+                            <asp:LoginStatus ID="LoginStatus1" OnLoggingOut="LoginStatus1_LoggedOut" runat="server" meta:resourcekey="LoginStatus1" />
+                                    </LoggedInTemplate>
+                                </asp:LoginView>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="fix_login">
+                    <asp:HyperLink ID="hloginTrigger" CssClass="login-trigger" runat="server" NavigateUrl="" Text="" meta:resourcekey="hloginTrigger">
+                    </asp:HyperLink>
+                </div>
+            </div>
+            <!--========================================================
+                            HEADER
+            =========================================================-->
+            <header id="header">
+                <div class="wrapper">
+                    <!-- logo -->
+                    <div id="gotomain">
+                        <asp:HyperLink ID="hlGoToMainPage" runat="server" Text="" NavigateUrl="~/Default.aspx"></asp:HyperLink>
+                    </div>
+                    <div class="headerRightBl">
+                        <div class="blAddress">
+                            <div class="lAddressFone">
+                                <iLightSite:ContentHtmlText ID="lAddressFone" runat="server" SkinControl="true" OnlyThisPage="false" />
+                            </div>
+                            <div class="rAddressFone">
+                                <iLightSite:ContentHtmlText ID="rAddressFone" runat="server" SkinControl="true" OnlyThisPage="false" />
+                            </div>
+                            <div class="schedule">
+                                <iLightSite:ContentHtmlText ID="schedule" runat="server" SkinControl="true" OnlyThisPage="false" />
+                            </div>
+                        </div>
+
+                        <div id="stuck_container" class="stuck_container">
+                            <nav class="menu nav">
+                                <iLightSite:iJQMenu ID="mmTop" runat="server" MenuDirection="Horizontal" OnlyRootMenuLevel="false"
+                                    LastMenuSeparator="true" />
+                            </nav>
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="clear">
+                    </div>
+                </div>
+            </header>
+
+
+
+            <!--========================================================
+                            CONTENT
+ =========================================================-->
+            <div class="wrapper">
+                <div class="leftNavBar">
+                    <div class="titleleftNavBar text-center">
+                        <p>НАШИ УСЛУГИ</p>
+                    </div>
+                    <iLightSite:iJQMenu ID="leftNavBar" runat="server" MenuDirection="Vertical" />
+                    <div class="banner1">
+                        <iLightSite:ContentHtmlText ID="banner" runat="server" SkinControl="true" OnlyThisPage="false" />
+                    </div>
+                    <div class="fbFormMain">
+                        <!-- Button trigger modal -->
+                        <div class="text-center">
+                            <a type="button" class="fbFormMainBt" data-toggle="modal" data-target=".bs-example-modal-xs" onClick="ga('send', 'event', 'form', 'enroll')"></a>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade bs-example-modal-xs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+                                    <div class="modal-body">
+                                        <iLightSite:FeedbackForm ID="fbForm" runat="server" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                    </div>
+
+                </div>
+                <div id="page-content" class="mainContentRight">
+                    <asp:ContentPlaceHolder ID="cphMain" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <!--========================================================
+                            FOOTER
+=========================================================-->
+            <footer>
+                <div class="wrapper">
+                    <div class="footerTop">
+                        <div class="wid-2">
+                            <iLightSite:iJQMenu ID="mmBT" runat="server" MenuDirection="Vertical" OnlyRootMenuLevel="false" MenuCodeForDisplayPage="mmTop" DepthLevel="0" LastMenuSeparator="true" />
+
+                        </div>
+                        <div class="wid-2">
+                            <div class="titleleftNavBar text-center">
+                                <p>НАШИ УСЛУГИ</p>
+                            </div>
+                            <iLightSite:iJQMenu ID="mmBt2" runat="server" MenuDirection="Vertical" OnlyRootMenuLevel="false" MenuCodeForDisplayPage="leftNavBar" DepthLevel="0" LastMenuSeparator="true" />
+
+                        </div>
+                        <div class="wid-4">
+                            <div class="ourPartners">
+                                <iLightSite:ContentHtmlText ID="ourPartners" runat="server" SkinControl="true" OnlyThisPage="false" />
+                            </div>
+                        </div>
+
+                        <div class="wid-2">
+                            <div class="addressBt1 addressBt">
+                                <iLightSite:ContentHtmlText ID="addressBt1" runat="server" OnlyThisPage="false" SkinControl="true" />
+                            </div>
+                        </div>
+
+                        <div class="wid-2">
+                            <div class="addressBt2 addressBt">
+                                <iLightSite:ContentHtmlText ID="addressBt2" runat="server" OnlyThisPage="false" SkinControl="true" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear"></div>
+                    <div class="footerBottom">
+                        <div class="wid-6 copyL">
+                            <p>Copyrighting © 2016 Стоматологическая клиника К5. Все права защищены.</p>
+                        </div>
+                        <div class="wid-6 internera text-right">
+                            <a href="http://internera.com" target="_blank">СОЗДАНИЕ САЙТОВ</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                Sys.WebForms.PageRequestManager.getInstance().add_endRequest(UpdateEndRequest);
+                UpdateEndRequest();
+                $(".popup-panel.hidden-popup-panel").removeClass("hidden-popup-panel");
+            });
+
+            function UpdateEndRequest() {
+                $("div.dEditpopup-panel").center();
+
+                $("div.dEditpopup-panel").scroll(function () {
+                    $("div.dEditpopup-panel").center();
+                });
+            }
+        </script>
+    </form>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-18180387-39', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
